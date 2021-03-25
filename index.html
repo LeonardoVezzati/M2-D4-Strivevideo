@@ -33,15 +33,50 @@
   </head>
   <body>
     
+    <!-- Image and text -->
+    <nav class="navbar navbar-light bg-light mb-5">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/download.png" width="30" height="30" class="d-inline-block align-top" alt="">
+          Teams & Names
+        </a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h2>List of Names</h2>
+      <hr>
+      <div class="">
+        <ul>
+
+        </ul>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Teams</h2>
+      <hr>
+      <div class="">
+        <ul>
+
+        </ul>
+      </div>
+    </div>
+
     <div class="container">
       <form>
         <label for="firstName">First name:</label><br>
-        <input type="text" id="firstName" name="firstName"><br> 
-        <input type="submit" value="Submit" id="createName" onclick="newName()">
+        <input type="text" id="firstName" name="firstName" class="mb-2"><br> 
+        <input type="submit" value="Submit" id="createName" class="btn btn-dark mb-2" onclick="newName()">
       </form>
+    </div>
 
-      </div>
-
+    <div class="container">
+      <form>
+        <label for="firstName">Number of Teams:</label><br>
+        <input type="text" id="numberOfTeams" name="numberOfTeams" class="mb-2"><br> 
+        <input type="submit" value="Submit" id="createNumberOfTeams" class="btn btn-dark mb-2" onclick="newNumberOfTeam()">
+      </form>
     </div>
 
     <script
